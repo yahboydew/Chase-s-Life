@@ -1,0 +1,41 @@
+h1 {
+    color:white;
+    border-style:dotted;
+    border-color: white;
+    padding: 20px;
+}
+body {
+    background-color: lightgreen;
+
+}
+#no1 {
+    color: darkgreen;
+}
+#no2 {
+    color: darkgreen;
+}
+p{
+    font-size: 1.2em;
+}
+ul{
+    color: green;
+}
+ul:nth-child(odd){
+    background: green;
+}
+ul:nth-child(even){
+    background:gold;
+}
+a:visited {
+    background-color: lightblue;
+    color: honeydew
+}
+a:hover {
+    background-color: lightblue;
+    color: honeydew;
+}
+a:active {
+    background-color: hotpink;
+    color: honeydew
+}
+
